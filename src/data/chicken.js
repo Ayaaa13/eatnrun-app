@@ -1,0 +1,81 @@
+const Chicken = [
+  {
+    id: "1",
+    img: "/ProductImg/ChickenImg.png",
+    title: "Chicken",
+    flavor: "Yam-nyeoni",
+    price: "",
+  },
+  {
+    id: "2",
+    img: "/ProductImg/ChickenImg.png",
+    title: "Chicken",
+    flavor: "Snow-Boshi",
+    price: "",
+  },
+  {
+    id: "3",
+    img: "/ProductImg/ChickenImg.png",
+    title: "Chicken",
+    flavor: "Kibuki Cheese",
+    price: "",
+  },
+  {
+    id: "4",
+    img: "/ProductImg/ChickenImg.png",
+    title: "Chicken",
+    flavor: "Buldok",
+    price: "",
+  },
+  {
+    id: "5",
+    img: "/ProductImg/ChickenImg.png",
+    title: "Chicken",
+    flavor: "Original",
+    price: "",
+  },
+  {
+    id: "6",
+    img: "/ProductImg/ChickenImg.png",
+    title: "Chicken",
+    flavor: "Honey Lemon Glazed",
+    price: "",
+  },
+  {
+    id: "7",
+    img: "/ProductImg/ChickenImg.png",
+    title: "Chicken",
+    flavor: "Soy Garlic",
+    price: "",
+  },
+  {
+    id: "8",
+    img: "/ProductImg/ChickenImg.png",
+    title: "Chicken",
+    flavor: "Salted Egg",
+    price: "",
+  },
+  {
+    id: "9",
+    img: "/ProductImg/ChickenImg.png",
+    title: "Chicken",
+    flavor: "Bacon and Cheese",
+    price: "",
+  },
+  {
+    id: "10",
+    img: "/ProductImg/ChickenImg.png",
+    title: "Chicken",
+    flavor: "Buffalo",
+    price: "",
+  },
+  {
+    id: "11",
+    img: "/ProductImg/ChickenImg.png",
+    title: "Chicken",
+    flavor: "Teriyaki",
+    price: "",
+  },
+];
+
+export default Chicken;

@@ -1,0 +1,1028 @@
+* {
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  font-style: normal;
+  line-height: normal;
+  box-sizing: border-box;
+}
+
+/* Heading */
+.headerOverview {
+  background: linear-gradient(
+    180deg,
+    #f3ddc8 0%,
+    rgba(243, 221, 200, 0) 88.54%
+  );
+}
+
+.mainHeader,
+.header {
+  display: flex;
+  padding: 0 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.logo-img {
+  width: 5rem;
+}
+
+.headerOverview,
+.header {
+  font-weight: 600;
+}
+
+.english {
+  color: #bc6103;
+  font-size: 0.9375rem;
+}
+
+.korean {
+  color: #282129;
+  font-size: 0.5rem;
+}
+
+.navbar,
+.mainNavbar {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.mainNavbar {
+  position: relative;
+}
+
+.mainNavbar a {
+  color: #000;
+  font-size: 15px;
+}
+
+.mainNavbar a:hover {
+  color: #bd6202;
+}
+
+.heading-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.loginHeaderBtn {
+  border-radius: 15px;
+  padding: 10px 25px;
+  font-weight: normal;
+}
+
+.loginHeaderBtn {
+  font-size: 13px;
+  color: #fff;
+  background: #bd6202;
+  border: 1px solid #bd6202;
+}
+
+/* Introduction */
+.introduction {
+  padding: 85px 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.left-side,
+.introduce {
+  display: flex;
+  flex-direction: column;
+}
+.introduce {
+  gap: 15px;
+}
+
+.introduce p {
+  font-size: 15px;
+
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.left-side {
+  gap: 25px;
+}
+
+.left-side h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 125%;
+  color: #bc6103;
+  width: 360px;
+}
+
+.learnMoreBtn {
+  padding: 10px 25px;
+  gap: 10px;
+  width: 120px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+
+  border-radius: 156px;
+  border: 1px solid #bd6202;
+  color: #bd6202;
+}
+
+/* Service */
+.ourService {
+  display: flex;
+  padding: 100px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.ourService h1 {
+  color: #be6104;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.ourService h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.whatWeDo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  gap: 10px;
+  width: 200px;
+  height: 270px;
+  text-align: center;
+
+  border-radius: 15px;
+  background: #faefe5;
+}
+
+.services h1 {
+  color: #bd6202;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.services p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+/* About Us */
+.aboutUs {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(243, 221, 200, 0) 0%,
+    rgba(243, 221, 200, 0.5) 68.23%
+  );
+}
+
+.readAboutUs,
+.description {
+  display: flex;
+  padding-right: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  width: 450px;
+}
+
+.description h1 {
+  color: #bd6202;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+.aboutUsLogo {
+  display: flex;
+  align-items: center;
+}
+
+.aboutUsLogo img {
+  width: 200px;
+  height: 192.233px;
+}
+
+.aboutUsLogoEnglish {
+  color: #bc6103;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.aboutUsLogoKorean {
+  color: #282129;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.readMoreBtn {
+  padding: 10px 25px;
+  width: 115px;
+
+  border-radius: 156px;
+  background: #bd6202;
+  color: #fff;
+
+  font-size: 12px;
+}
+
+/* Menu */
+.menuSection {
+  display: flex;
+  padding: 85px 100px;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title h1 {
+  color: #bc6103;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.title h2 {
+  color: #282129;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.menuProducts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.menuTitle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.menuTitle img {
+  width: 50px;
+  height: 50px;
+}
+
+.menuTitle h1 {
+  color: #bd6202;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.products h2 {
+  font-size: 15px;
+}
+
+.products p {
+  font-size: 10px;
+}
+
+.products h2,
+.products p {
+  color: #000;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.menu {
+  display: flex;
+  padding: 25px;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+  height: 298px;
+
+  background: rgba(244, 224, 205, 0.5);
+}
+
+.products {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.product {
+  width: 160px;
+}
+/* Footer */
+footer {
+  background: #ffa559;
+}
+
+.top-footer {
+  display: flex;
+  gap: 15em;
+  padding: 5% 10%;
+}
+
+.footerEnglish {
+  color: #bc6103;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.footerKorean {
+  color: #282129;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.mainFooter {
+  display: flex;
+  gap: 5em;
+}
+
+.contactUs,
+.legal {
+  display: flex;
+  flex-direction: column;
+}
+
+.address,
+.number {
+  display: flex;
+  gap: 5px;
+}
+
+.copyright {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Login Form */
+.mainLogin {
+  background: linear-gradient(180deg, #fff1e3 0%, #fff 100%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 400px;
+  height: 80vh;
+  flex-shrink: 0;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.welcomeLogin {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.welcomeLogin h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.welcomeLogin p {
+  color: #7a7878;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.loginLabel {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.loginInput {
+  border: none;
+  background: #fff;
+  outline: none;
+  width: 370px;
+  height: 40px;
+  padding: 0px 15px;
+}
+
+.rememberForgot {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.loginBtn {
+  font-size: 12px;
+  font-weight: 400;
+
+  display: inline-flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+
+  border: none;
+  color: #fff;
+  background: #bd6202;
+  border-radius: 15px;
+
+  cursor: pointer;
+}
+
+.remember {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+/* Or Log in With */
+.straightLinePosition {
+  position: relative;
+  width: 100%;
+
+  margin-bottom: 10px;
+}
+
+.straightLine {
+  width: 404px;
+  height: 0px;
+  left: 0px;
+  top: 7px;
+  position: absolute;
+  border: 0.5px black solid;
+}
+
+.centerBackground {
+  padding-left: 10px;
+  padding-right: 10px;
+  left: 161px;
+  top: 0px;
+  position: absolute;
+  background: #fffaf4;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.orLoginWith {
+  text-align: center;
+  color: black;
+  font-size: 12px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+/* Social Media Login */
+.socialMediaLogin {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.googleLogin,
+.facebookLogin {
+  display: inline-flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  border-radius: 5px;
+  border: 1px solid #b0b0ae;
+
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/* Don't have an account Button */
+.signUpButton {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  color: #7a7878;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.signUpButton a {
+  color: #000000;
+}
+
+/* Signup */
+.mainSignup {
+  background: linear-gradient(180deg, #fff1e3 0%, #fff 100%);
+}
+
+.Signup {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 400px;
+  height: 80vh;
+  flex-shrink: 0;
+}
+
+.SignupForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.welcomeSignup {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.getStartedUser h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.getStartedUser p {
+  color: #7a7878;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.signupLabel {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.signupInput {
+  border: none;
+  background: #fff;
+  outline: none;
+  width: 370px;
+  height: 40px;
+  padding: 0px 15px;
+}
+
+.agreementPolicy {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.agreementPolicy a {
+  color: black;
+}
+.agreementPolicy label {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.signupBtn {
+  font-size: 12px;
+  font-weight: 400;
+
+  display: inline-flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+
+  border: none;
+  color: #fff;
+  background: #bd6202;
+  border-radius: 15px;
+
+  cursor: pointer;
+}
+
+/* Or Sign up With */
+.straightLinePosition {
+  position: relative;
+  width: 100%;
+
+  margin-bottom: 10px;
+}
+
+.straightLine {
+  width: 404px;
+  height: 0px;
+  left: 0px;
+  top: 7px;
+  position: absolute;
+  border: 0.5px black solid;
+}
+
+.centerBackground {
+  padding-left: 10px;
+  padding-right: 10px;
+  left: 161px;
+  top: 0px;
+  position: absolute;
+  background: #fffaf4;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.orSignupWith {
+  text-align: center;
+  color: black;
+  font-size: 12px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+/* Social Media Signup */
+.socialMediaSignup {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.googleSignup,
+.facebookSignup {
+  display: inline-flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  border-radius: 5px;
+  border: 1px solid #b0b0ae;
+
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/* Don't have an account Button */
+.signUpButton {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  color: #7a7878;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.signUpButton a {
+  color: #000000;
+}
+
+/* Home Page background */
+
+.HomePage {
+  background: linear-gradient(180deg, #fff1e3 0%, #fff 100%);
+}
+
+/* Home heading */
+/* Search */
+.search {
+  display: flex;
+  padding: 5px 10px;
+  align-items: center;
+  gap: 5px;
+
+  border-radius: 15px;
+  border: 1px solid #28212a;
+}
+
+.search input {
+  font-size: 10px;
+  font-weight: 400;
+
+  width: 250px;
+
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Notification */
+.notifBtn {
+  position: relative;
+}
+.notifBtn i {
+  font-size: 25px;
+}
+
+.notification-dropdown {
+  color: #b0b0ae;
+  display: flex;
+  height: 249px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+
+  width: 250px;
+  border: 1px solid black;
+
+  position: absolute;
+  top: 150%;
+  right: -87%;
+
+  z-index: 10;
+}
+
+.notification-dropdown::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  background: white;
+  top: -9px;
+  left: 85%;
+  transform: rotate(45deg);
+}
+
+p.noNotification {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Profile */
+.profileBtn img {
+  width: 30px;
+  margin-top: 5px;
+}
+
+.profile-dropdown {
+  color: #28212a;
+  display: inline-flex;
+  padding: 10px;
+  flex-direction: column;
+
+  width: 250px;
+  border: 1px solid black;
+  background: white;
+
+  position: absolute;
+  top: 125%;
+  right: -4.6%;
+
+  z-index: 10;
+}
+
+.profile-dropdown::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  background: white;
+  top: -9px;
+  left: 85%;
+  transform: rotate(45deg);
+}
+
+.dropdown-content {
+  display: inline-flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.userImageName,
+.dropdown-content .button {
+  display: flex;
+  padding: 10px 0px 10px 5px;
+  align-items: center;
+  gap: 5px;
+}
+
+.profile-dropdown .name,
+.dropdown-content .button {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.dropdown-content .button {
+  cursor: pointer;
+}
+
+/* Products */
+.productContent {
+  padding: 2% 5%;
+}
+
+.productContent h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Product Lists */
+.productContent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.productLists {
+  display: flex;
+  gap: 10px;
+}
+
+.Lists {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+
+  padding: 15px;
+  border-radius: 15px;
+  border: 2px solid #b0b0ae;
+  width: 80px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.Lists img {
+  width: 50px;
+}
+
+.Lists:hover {
+  transform: translateY(-10px);
+}
+
+/* Product Items */
+.ProductItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.Items {
+  width: 200px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+
+.productImage {
+  position: relative;
+}
+
+.productImage img {
+  width: 200px;
+  height: 135px;
+  flex-shrink: 0;
+}
+
+.favorite {
+  position: absolute;
+  top: 6%;
+  left: 9%;
+}
+
+.favorite i {
+  padding: 7px;
+  color: red;
+  background: white;
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}
+
+.details .title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.flavorAndReview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flavor {
+  color: #b0b0ae;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.review i {
+  color: yellow;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+}
+
+.priceAndButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.price {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.addBtn {
+  display: flex;
+  width: 11px;
+  height: 10px;
+  padding: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  border-radius: 50px;
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+
+  cursor: pointer;
+}
+
