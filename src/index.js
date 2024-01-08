@@ -10,11 +10,11 @@ import Home from "./pages/Home";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Overview />,
+    element: <Home />,
   },
   {
     path: "/overview",
-    element: <Overview />,
+    element: <Home />,
   },
   {
     path: "/login",
